@@ -1,0 +1,14 @@
+  .row-pad{
+	padding-top:10px;
+
+  }
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+

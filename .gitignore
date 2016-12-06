@@ -1,0 +1,12 @@
+/upload/buffer/**
+/upload/files/**
+Thumbs.db
+/.idea
+nbproject
+.buildpath
+.project
+.settings
+.idea/**
+/error_log.txt
+/db-config.php
+/apps/**

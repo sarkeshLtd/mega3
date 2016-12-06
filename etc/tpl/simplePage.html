@@ -1,0 +1,22 @@
+<!DOCTYPE html> 
+<head>
+{$headers}
+<title>{$title}</title>
+{if="$vertical"}
+<style>
+	.col-centered-v{
+		padding-top:10%;
+	}
+</style>
+{/if}
+</head>
+	<body>
+				<div class=" col-centered {if="$vertical"}col-centered-v{/if} col-xs-12 col-sm-12 col-lg-{$width}">
+					
+					{$content}
+					
+				</div>
+
+	</body>
+</html>
+
